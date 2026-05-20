@@ -1,11 +1,11 @@
 {
   "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
-  "version": "0.0.0",
+  "version": "1.98.57",
   "description": "PowerShell automation toolkit for configuring Windows Server hosts — Hyper-V virtualization hosts, failover cluster nodes, iSCSI storage clients, Active Directory members, and standalone servers. Ships as a code-signed EXE plus a PowerShell Gallery wrapper module exposing 175+ structured CLI actions.",
   "homepage": "https://github.com/TheAbider/RackStack",
   "license": "MIT",
-  "url": "https://github.com/TheAbider/RackStack/releases/download/v0.0.0/RackStack.exe",
-  "hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "url": "https://github.com/TheAbider/RackStack/releases/download/v1.98.57/RackStack.exe",
+  "hash": "2bda01b76b2ebcd39fbe5e9c853ecb5425ef6c26f412f00b8f934df0ba040d36",
   "bin": "RackStack.exe",
   "notes": [
     "RackStack requires Administrator privileges and auto-elevates when launched.",
