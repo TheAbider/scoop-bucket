@@ -1,15 +1,15 @@
 {
   "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
-  "version": "1.99.1",
-  "description": "PowerShell automation toolkit for configuring Windows Server hosts — Hyper-V virtualization hosts, failover cluster nodes, iSCSI storage clients, Active Directory members, and standalone servers. Ships as a code-signed EXE plus a PowerShell Gallery wrapper module exposing 175+ structured CLI actions.",
+  "version": "1.122.0",
+  "description": "PowerShell automation toolkit for configuring Windows Server hosts — Hyper-V virtualization hosts, failover cluster nodes, iSCSI storage clients, Active Directory members, and standalone servers. Ships as a code-signed EXE plus a PowerShell Gallery wrapper module exposing 201 structured CLI actions.",
   "homepage": "https://github.com/TheAbider/RackStack",
   "license": "MIT",
-  "url": "https://github.com/TheAbider/RackStack/releases/download/v1.99.1/RackStack.exe",
-  "hash": "31c43ed5717f5a9d9d47ae151d4e68b44a0c4eaeb7bcfb6c8a8316da1274a44c",
+  "url": "https://github.com/TheAbider/RackStack/releases/download/v1.122.0/RackStack.exe",
+  "hash": "a2145966c1878f26f4825caaafea235f54a5b2cf6146c5a59799fef5803d4808",
   "bin": "RackStack.exe",
   "notes": [
     "RackStack requires Administrator privileges and auto-elevates when launched.",
-    "First-run wizard creates defaults.json next to the EXE under the scoop shims dir.",
+    "First-run wizard creates rackstack.config.json next to the EXE under the scoop shims dir (a legacy defaults.json is still read).",
     "Releases are cosign-signed (Sigstore) — verify with `gh attestation verify RackStack.exe --owner TheAbider`."
   ],
   "checkver": {
